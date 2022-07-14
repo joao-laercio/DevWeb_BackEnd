@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: 'roboto', sans-serif
+
+}
+
+main {
+    display: flex;
+    height: 100vh;
+}
+
+.leftSide{
+    background-color: blue;
+    width: 645px;
+    padding-left: 159px;
+    padding-top: 29px;
+}
+.logo span{
+    font-size: 32px;
+    font-weight: 700px;
+
+}
+.logo span::before{
+    width: 60px;
+    height: 60px;
+    border: 
+}
+
