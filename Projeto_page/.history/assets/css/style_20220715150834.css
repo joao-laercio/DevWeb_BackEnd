@@ -1,7 +1,7 @@
 body{
     margin: 1px;
-    background-color: rgb(250, 250, 250);
-    border: 2px;
+    background-color: rgb(86, 94, 94);
+    border: 2px solid var(--bs-gray-200);
 
 }
 .navbar-brand{
@@ -33,12 +33,11 @@ label {
 
 input, textarea {
     font: 1em sans-serif;
+
     width: 300px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    border: 1px solid #999;
-}
 
-a{
-    max-width: center;
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 1px solid #999;
 }
