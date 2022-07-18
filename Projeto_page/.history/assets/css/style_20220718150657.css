@@ -8,7 +8,7 @@ body{
 .navbar-brand{
     color: rgb(185, 209, 140);
     margin-top: 10px;
-    
+    padding-;
 }
 .navbar-toggler{
     color: rgb(204, 230, 157);
@@ -95,8 +95,4 @@ button1{
 
 container-fluid{
     background-color: black;
-}
-
-h2{
-    margin-bottom: 500px;
 }

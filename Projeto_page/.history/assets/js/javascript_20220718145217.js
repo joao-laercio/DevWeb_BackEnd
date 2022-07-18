@@ -18,3 +18,4 @@ if (alertTrigger) {
     alert('Nice, you triggered this alert message!', 'success')
   })
 }
+
