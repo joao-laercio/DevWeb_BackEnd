@@ -22,8 +22,8 @@ form {
     --margin: 150px;
     --width: 400px;
     padding: 5em;
-    --border: 1px solid rgb(15, 15, 15);
-    --border-radius: 0em;
+    border: 1px solid rgb(15, 15, 15);
+    border-radius: 0em;
     margin-top: auto;
     margin-bottom: auto;
     

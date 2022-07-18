@@ -22,8 +22,8 @@ form {
     --margin: 150px;
     --width: 400px;
     padding: 5em;
-    --border: 1px solid rgb(15, 15, 15);
-    --border-radius: 0em;
+    border: 1px solid rgb(15, 15, 15);
+    border-radius: 1em;
     margin-top: auto;
     margin-bottom: auto;
     
@@ -40,7 +40,7 @@ input, textarea {
     padding: 2px;
     margin-bottom: 4px;
     width: 300px;
-    --moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     border: 1px solid rgb(17, 17, 17);
 
