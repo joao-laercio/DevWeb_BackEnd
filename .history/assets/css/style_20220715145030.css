@@ -1,0 +1,16 @@
+body{
+    margin: 5px;
+    background-color: rgb(86, 94, 94);
+    border: 1px solid var(--bs-gray-200);
+
+}
+.navbar-brand{
+    color: rgb(185, 209, 140);
+}
+.navbar-toggler{
+    color: rgb(204, 230, 157);
+}
+
+.navbar-toggler-icon{
+    color: rgb(204, 230, 157);
+}

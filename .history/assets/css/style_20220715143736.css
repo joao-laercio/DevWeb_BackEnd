@@ -1,0 +1,18 @@
+body{
+    margin: 5px;
+    color
+}
+.navbar-brand{
+    color: rgb(185, 209, 140);
+}
+.navbar-toggler{
+    color: rgb(204, 230, 157);
+}
+
+.navbar-toggler-icon{
+    color: rgb(204, 230, 157);
+}
+
+.carousel-inner{
+    font-size: 50px;
+}
