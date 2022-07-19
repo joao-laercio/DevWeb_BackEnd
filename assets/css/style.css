@@ -102,3 +102,62 @@ h2{
     margin-left: 10px;
  
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: 'roboto', sans-serif
+}
+
+main {
+    display: flex;
+    height: 100vh;
+}
+
+.leftSide {
+    background-color: rgb(80, 63, 241);
+    width:100%;
+    padding-left: 159px;
+    padding-top: 29px;
+}
+
+.logo span {
+    font-size: 32px;
+    font-weight: 700px;
+
+}
+
+.logo span::before {
+    width: 60px;
+    height: 60px;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 1%;
+    padding-bottom: 5%;
+
+}
+
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+}
