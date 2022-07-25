@@ -1,8 +1,7 @@
-n1 = int(input("Digite o numero"))
+from turtle import position
 
-def quadrado (n):
-    print(n1**2)
-    
 
-       
-    
+lista = [1,2,3,4,5,6,7]
+print(position(lista))
+
+
