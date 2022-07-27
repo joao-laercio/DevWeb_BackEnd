@@ -1,9 +1,12 @@
+from unicodedata import name
+
+
 class Pessoa(object):
     def __init__(self, nome, idade, endereco, cpf, sexo):
         self.nome = nome
         self.idade = idade
-        self.__endereco = endereco
-        self.__cpf = cpf
+        self.endereco = endereco
+        self.cpf = cpf
         self.sexo = sexo
        
         
@@ -14,41 +17,44 @@ class Pessoa(object):
             print ('cpf', self.cpf)
             print ('sxo', self.sexo)
             
-        
+        def __str__(self):
+            return self.name
+                
+            
 class Pai(Pessoa):
     def __init__(self,  nome, idade, endereco, cpf, sexo):
         Pessoa.__init__(self,  nome, idade, endereco, cpf, sexo)
         self.__cpf = cpf
-        self.Filho = []
-        self.esposa = Mae()
+        self.filhos = []
+        self.esposa = None
         
     def resumo(self):
-        Pessoa.resumo()
-        print('filhos', self.Filho)
+        Pessoa.resumo(self)
+        print('filhos', self.filhos)
         print('esposa', self.Mae)
         
 class Mae(Pessoa):
     def __init__(self,  nome, idade, endereco, cpf, sexo):
         Pessoa.__init__(self,  nome, idade, endereco, cpf, sexo)
         self.__cpf = cpf
-        self.Filho = []
-        self.esposo = Pai()
+        self.filhos = []
+        self.esposo = None
         
     def resumo(self):
-        Pessoa.resumo()
-        print('filhos', self.Filho)
+        Pessoa.resumo(self)
+        print('filhos', self.filhos)
         print('esposo', self.Pai)
         
 class Filho(Pessoa):
     def __init__(self,  nome, idade, endereco, cpf, sexo):
         Pessoa.__init__(self,  nome, idade, endereco, cpf, sexo)
         self.__cpf = cpf
-        self.Filho = []
-        self.esposa = Mae()
+        self.Pai = Pai()
+        self.Mae = Mae()
         
     def resumo(self):
-        Pessoa.resumo()
+        Pessoa.resumo(self)
         print('Pai', self.Pai)
-        print('Ma', self.Mae)
+        print('Mae', self.Mae)
         
         
