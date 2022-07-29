@@ -1,1 +1,4 @@
 https://www.treinaweb.com.br/blog/criando-ambientes-virtuais-para-projetos-python-com-o-virtualenv
+
+
+https://docs.djangoproject.com/en/4.0/topics/migrations/
